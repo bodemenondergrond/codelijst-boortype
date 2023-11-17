@@ -1,0 +1,6 @@
+type,uri,dc.id,collection,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
+skos:ConceptScheme,cs:bemonsteringstype,bemonsteringstype,,,Codelijst bemonsteringstype.,,,,,,,Aard van de Bemonstering.,,,,,,,,,,,,,
+skos:Collection,colt:bemonsteringstypes,bemonsteringstypes,,,Collectie van bemonsteringstypes.,,,,,,,,,,,,,cs:bemonsteringstype,,,,,,,
+skos:Concept,ct:geroerd,geroerd,colt:bemonsteringstypes,,Geroerd,,,,,,,,,,,,,cs:bemonsteringstype,,,,,,,cs:bemonsteringstype
+skos:Concept,ct:ongeroerd,ongeroerd,colt:bemonsteringstypes,,Ongeroerd,,,,,,,,,,,,,cs:bemonsteringstype,,,,,,,cs:bemonsteringstype
+skos:Concept,ct:vloeistof,vloeistof,colt:bemonsteringstypes,,Vloeistof,,,,,,,,,,,,,cs:bemonsteringstype,,,,,,,cs:bemonsteringstype
