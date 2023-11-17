@@ -1,4 +1,4 @@
-# codelijst-boor
+# codelijst-boortype
 
 ## Samenvatting
 
