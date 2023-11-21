@@ -1,6 +1,32 @@
-type,uri,dc.id,collection,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
-skos:ConceptScheme,cs:bemonsteringstype,bemonsteringstype,,,Codelijst bemonsteringstype.,,,,,,,Aard van de Bemonstering.,,,,,,,,,,,,,
-skos:Collection,colt:bemonsteringstypes,bemonsteringstypes,,,Collectie van bemonsteringstypes.,,,,,,,,,,,,,cs:bemonsteringstype,,,,,,,
-skos:Concept,ct:geroerd,geroerd,colt:bemonsteringstypes,,Geroerd,,,,,,,,,,,,,cs:bemonsteringstype,,,,,,,cs:bemonsteringstype
-skos:Concept,ct:ongeroerd,ongeroerd,colt:bemonsteringstypes,,Ongeroerd,,,,,,,,,,,,,cs:bemonsteringstype,,,,,,,cs:bemonsteringstype
-skos:Concept,ct:vloeistof,vloeistof,colt:bemonsteringstypes,,Vloeistof,,,,,,,,,,,,,cs:bemonsteringstype,,,,,,,cs:bemonsteringstype
+uri;type;dc.id;collection;notation;prefLabel;altLabel;broader;broaderTransitive;broadMatch;changeNote;closeMatch;definition;editorialNote;exactMatch;example;hiddenLabel;historyNote;inScheme;mappingRelation;note;related;relatedMatch;scopeNote;semanticRelation;topConceptOf
+colt:boortypes;skos:Collection;boortypes;;;Collectie van boortypes.;;;;;;;;;;;;;cs:boortype;;;;;;;
+cs:boortype;skos:ConceptScheme;boortype;;;Codelijst boortype.;;;;;;;;;;;;;;;;;;;;
+ct:0;skos:Concept;0;colt:boortypes;;0;;;;;;;onbekend;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:1;skos:Concept;1;colt:boortypes;;1;;;;;;;droge boring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:2;skos:Concept;2;colt:boortypes;;2;;;;;;;lepelboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:3;skos:Concept;3;colt:boortypes;;3;;;;;;;pulsboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:4;skos:Concept;4;colt:boortypes;;4;;;;;;;spiraalboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:5;skos:Concept;5;colt:boortypes;;5;;;;;;;gestoken boring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:6;skos:Concept;6;colt:boortypes;;6;;;;;;;spoelboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:7;skos:Concept;7;colt:boortypes;;7;;;;;;;zuigboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:8;skos:Concept;8;colt:boortypes;;8;;;;;;;kernboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:9;skos:Concept;9;colt:boortypes;;9;;;;;;;rollerbit;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:10;skos:Concept;10;colt:boortypes;;10;;;;;;;luchthamer;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:11;skos:Concept;11;colt:boortypes;;11;;;;;;;geen boring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:12;skos:Concept;12;colt:boortypes;;12;;;;;;;meerdere technieken;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:13;skos:Concept;13;colt:boortypes;;13;;;;;;;avegaarboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:14;skos:Concept;14;colt:boortypes;;14;;;;;;;ramkernboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:15;skos:Concept;15;colt:boortypes;;15;;;;;;;slagboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:16;skos:Concept;16;colt:boortypes;;16;;;;;;;spade;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:17;skos:Concept;17;colt:boortypes;;17;;;;;;;trilboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:18;skos:Concept;18;colt:boortypes;;18;;;;;;;edelmanboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:19;skos:Concept;19;colt:boortypes;;19;;;;;;;omgek. spoelboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:20;skos:Concept;20;colt:boortypes;;20;;;;;;;handboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:21;skos:Concept;21;colt:boortypes;;21;;;;;;;ramguts;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:22;skos:Concept;22;colt:boortypes;;22;;;;;;;voorput;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:23;skos:Concept;23;colt:boortypes;;23;;;;;;;steenboring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:24;skos:Concept;24;colt:boortypes;;24;;;;;;;graafmachine;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:25;skos:Concept;25;colt:boortypes;;25;;;;;;;luchthevelboren of air-lift boren;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:26;skos:Concept;26;colt:boortypes;;26;;;;;;;lansen;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:27;skos:Concept;27;colt:boortypes;;27;;;;;;;roto-sonische boring;;;;;;cs:boortype;;;;;;;cs:boortype
+ct:28;skos:Concept;28;colt:boortypes;;28;;;;;;;diagrafieboring;;;;;;cs:boortype;;;;;;;cs:boortype
