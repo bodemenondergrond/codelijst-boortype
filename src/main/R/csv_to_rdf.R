@@ -117,7 +117,7 @@ jsonld_source_pad = config$skos$jsonld_source
 csv_source_pad = config$skos$csv_source
 
 # lees csv
-df <- read.csv(file = csv_source_pad, sep=",", na.strings=c("","NA"))
+df <- read.csv(file = csv_source_pad, sep=",", na.strings=c("";"NA"))
 
 csv_distributie <- paste(dataset_distributie_pad, distributie_naam, ".csv", sep="")
 write.csv(collapse_df_on_pipe(df, id_column),csv_distributie, row.names = FALSE, na='', fileEncoding='UTF-8')
