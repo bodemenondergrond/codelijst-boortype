@@ -71,7 +71,7 @@ Release:
 ---
 version: 2
 plan:
-  key: DOVBOORTYPE
+  key: DOV-DOVBOORTYPE
 
 plan-permissions:
   - groups:
