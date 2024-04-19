@@ -41,23 +41,6 @@
 @prefix void:                <http://rdfs.org/ns/void#> .
 @prefix xsd:                 <http://www.w3.org/2001/XMLSchema#> .
 
-omg_distribution:codelijst-boortypes.0.1.1.boortypes_xsd
-        rdf:type              dcat:Distribution;
-        rdfs:label            "Codelijst boortypes, in xml xsd-formaat."@nl;
-        dc:identifier         "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-boortypes.0.1.1.boortypes_xsd";
-        dcterms:accessRights  access_right:PUBLIC;
-        dcterms:description   "Codelijst boortypes, geserialiseerd in een xsd bestand met een enumeratie."@nl;
-        dcterms:format        file_type:XSD;
-        dcterms:identifier    omg_distribution:codelijst-boortypes.0.1.1.boortypes_xsd;
-        dcterms:issued        "2024-01-02"^^xsd:date;
-        dcterms:rightsHolder  ovo:OVO003751;
-        dcterms:title         "Codelijst boortypes in xml/xsd formaat."@nl;
-        dcat:accessURL        <https://github.com/bodemenondergrond/codelijst-boortypes.git>;
-        dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip>;
-        dcat:downloadURL      <https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-boortypes.0.1.1.boortypes.xsd>;
-        dcat:mediaType        <https://www.iana.org/assignments/media-types/application/xml>;
-        foaf:page             <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-boortypes.0.1.1.boortypes_xsd.html> .
-
 omg_distribution:codelijst-boortypes.0.1.0.boortypes_csv
         rdf:type              dcat:Distribution;
         rdfs:label            "Codelijst boortypes, in text/csv formaat."@nl;
@@ -136,57 +119,6 @@ omg_distribution:codelijst-boortypes.0.1.0.boortypes_jsonld
         dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json>;
         foaf:page             <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-boortypes.0.1.0.boortypes_jsonld.html> .
 
-omg_distribution:codelijst-boortypes.0.1.1.boortypes_csv
-        rdf:type              dcat:Distribution;
-        rdfs:label            "Codelijst boortypes, in text/csv formaat."@nl;
-        dc:identifier         "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-boortypes.0.1.1.boortypes_csv";
-        dcterms:accessRights  access_right:PUBLIC;
-        dcterms:description   "Codelijst boortypes, geserialiseerd in csv tabelformaat."@nl;
-        dcterms:format        file_type:CSV;
-        dcterms:identifier    omg_distribution:codelijst-boortypes.0.1.1.boortypes_csv;
-        dcterms:issued        "2024-01-02"^^xsd:date;
-        dcterms:rightsHolder  ovo:OVO003751;
-        dcterms:title         "Codelijst boortypes in text/csv formaat."@nl;
-        dcat:accessURL        <https://github.com/bodemenondergrond/codelijst-boortypes.git>;
-        dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip>;
-        dcat:downloadURL      <https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-boortypes.0.1.1.boortypes.csv>;
-        dcat:mediaType        <https://www.iana.org/assignments/media-types/text/csv>;
-        foaf:page             <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-boortypes.0.1.1.boortypes_csv.html> .
-
-omg_distribution:codelijst-boortypes.0.1.1.boortypes_rdf
-        rdf:type              dcat:Distribution;
-        rdfs:label            "Codelijst boortypes, in xml rdf-formaat."@nl;
-        dc:identifier         "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-boortypes.0.1.1.boortypes_rdf";
-        dcterms:accessRights  access_right:PUBLIC;
-        dcterms:description   "Codelijst boortypes, geserialiseerd in rdf/xml bestand."@nl;
-        dcterms:format        file_type:RDF_XML;
-        dcterms:identifier    omg_distribution:codelijst-boortypes.0.1.1.boortypes_rdf;
-        dcterms:issued        "2024-01-02"^^xsd:date;
-        dcterms:rightsHolder  ovo:OVO003751;
-        dcterms:title         "Codelijst boortypes in xml rdf-formaat."@nl;
-        dcat:accessURL        <https://github.com/bodemenondergrond/codelijst-boortypes.git>;
-        dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip>;
-        dcat:downloadURL      <https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-boortypes.0.1.1.boortypes.rdf>;
-        dcat:mediaType        <https://www.iana.org/assignments/media-types/application/rdf+xml>;
-        foaf:page             <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-boortypes.0.1.1.boortypes_rdf.html> .
-
-omg_package:be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-boortype.0.1.1
-        rdf:type               spdx:Package , dcat:Distribution;
-        rdfs:label             "Package codelijst-boortype"@nl;
-        dc:identifier          "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-boortype.0.1.1";
-        dcterms:accessRights   access_right:PUBLIC;
-        dcterms:description    "Codelijst boortypes, Jar maven package."@nl;
-        dcterms:format         file_type:JAR;
-        dcterms:identifier     omg_package:be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-boortype.0.1.1;
-        dcterms:issued         "2024-01-02"^^xsd:date;
-        dcterms:rightsHolder   ovo:OVO003751;
-        dcterms:title          "Codelijst boortypes in jar-formaat."@nl;
-        spdx:downloadLocation  <https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-boortype/0.1.1/codelijst-boortype-0.1.1.jar>;
-        spdx:packageFileName   "codelijst-boortype-0.1.1.jar";
-        spdx:packageName       "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-boortype";
-        spdx:versionInfo       "0.1.1";
-        dcat:downloadURL       <https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-boortype/0.1.1/codelijst-boortype-0.1.1.jar> .
-
 omg_distribution:codelijst-boortypes.0.1.0.boortypes_ttl
         rdf:type              dcat:Distribution;
         rdfs:label            "Codelijst boortypes, in Turtle rdf-formaat."@nl;
@@ -217,7 +149,7 @@ omg_dataset:codelijst-boortypes
         dcterms:accrualPeriodicity  frequency:IRREG;
         dcterms:alternative         "Dataset codelijst boortypes"@nl;
         dcterms:description         "Deze dataset bevat een lijst van testconcepten, die gebruikt worden binnen het beleidsdomein bodemenondergrond van de Vlaamse Overheid."@nl;
-        dcterms:hasVersion          omg_dataset:codelijst-boortypes.0.1.1 , omg_dataset:codelijst-boortypes.0.1.0;
+        dcterms:hasVersion          omg_dataset:codelijst-boortypes.0.1.0;
         dcterms:identifier          omg_dataset:codelijst-boortypes;
         dcterms:language            language:NLD;
         dcterms:license             <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>;
@@ -231,67 +163,6 @@ omg_dataset:codelijst-boortypes
         dcat:landingPage            <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>;
         dcat:theme                  gemet:10087 , datatheme_eu:ENVI , eurovoc:2407 , datatheme_be:ENVI;
         foaf:page                   <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-boortypes.html> .
-
-omg_distribution:codelijst-boortypes.0.1.1.boortypes_ttl
-        rdf:type              dcat:Distribution;
-        rdfs:label            "Codelijst boortypes, in Turtle rdf-formaat."@nl;
-        dc:identifier         "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-boortypes.0.1.1.boortypes_ttl";
-        dcterms:accessRights  access_right:PUBLIC;
-        dcterms:description   "Codelijst boortypes, geserialiseerd in Turtle bestand."@nl;
-        dcterms:format        file_type:RDF_TURTLE;
-        dcterms:identifier    omg_distribution:codelijst-boortypes.0.1.1.boortypes_ttl;
-        dcterms:issued        "2024-01-02"^^xsd:date;
-        dcterms:rightsHolder  ovo:OVO003751;
-        dcterms:title         "Codelijst boortypes in Turtle rdf-formaat."@nl;
-        dcat:accessURL        <https://github.com/bodemenondergrond/codelijst-boortypes.git>;
-        dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip>;
-        dcat:downloadURL      <https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-boortypes.0.1.1.boortypes.ttl>;
-        dcat:mediaType        <https://www.iana.org/assignments/media-types/text/turtle>;
-        foaf:page             <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-boortypes.0.1.1.boortypes_ttl.html> .
-
-omg_dataset:codelijst-boortypes.0.1.1
-        rdf:type                    dcat:Dataset;
-        rdfs:label                  "Codelijst boortypes (0.1.1)"@nl;
-        dc:identifier               "be.vlaanderen.bodemenondergrond.data.id.dataset.codelijst-boortypes.0.1.1";
-        dc:language                 "nl"@nl;
-        dcterms:accessRights        access_right:PUBLIC;
-        dcterms:accrualPeriodicity  frequency:IRREG;
-        dcterms:alternative         "Dataset codelijst boortypes"@nl;
-        dcterms:description         "Deze dataset bevat een lijst van testconcepten, die gebruikt worden binnen het beleidsdomein bodemenondergrond van de Vlaamse Overheid."@nl;
-        dcterms:identifier          omg_dataset:codelijst-boortypes.0.1.1;
-        dcterms:isVersionOf         omg_dataset:codelijst-boortypes;
-        dcterms:issued              "2024-01-02"^^xsd:date;
-        dcterms:language            language:NLD;
-        dcterms:license             <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>;
-        dcterms:publisher           ovo:OVO003323;
-        dcterms:rightsHolder        ovo:OVO003751;
-        dcterms:spatial             country:BEL , <https://www.geonames.org/3337388/flanders>;
-        dcterms:temporal            omg_periodoftime:dataset_omg;
-        dcterms:title               "Codelijst boortypes"@nl;
-        void:rootResource           omg_conceptscheme:boortypes;
-        owl:versionInfo             "0.1.1";
-        dcat:contactPoint           omg_vcard:helpdesk;
-        dcat:distribution           omg_distribution:codelijst-boortypes.0.1.1.boortypes_ttl , omg_package:be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-boortypes.0.1.1 , omg_distribution:codelijst-boortypes.0.1.1.boortypes_jsonld , omg_distribution:codelijst-boortypes.0.1.1.boortypes_csv , omg_distribution:codelijst-boortypes.0.1.1.boortypes_xsd , omg_distribution:codelijst-boortypes.0.1.1.boortypes_rdf;
-        dcat:landingPage            <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html>;
-        dcat:theme                  datatheme_be:ENVI , datatheme_eu:ENVI , gemet:10087 , eurovoc:2407;
-        foaf:page                   <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/codelijst-boortypes.0.1.1.html> .
-
-omg_distribution:codelijst-boortypes.0.1.1.boortypes_jsonld
-        rdf:type              dcat:Distribution;
-        rdfs:label            "Codelijst boortypes, in jsonld rdf-formaat."@nl;
-        dc:identifier         "be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-boortypes.0.1.1.boortypes_jsonld";
-        dcterms:accessRights  access_right:PUBLIC;
-        dcterms:description   "Codelijst boortypes, geserialiseerd in een jsonld bestand."@nl;
-        dcterms:format        file_type:JSON_LD;
-        dcterms:identifier    omg_distribution:codelijst-boortypes.0.1.1.boortypes_jsonld;
-        dcterms:issued        "2024-01-02"^^xsd:date;
-        dcterms:rightsHolder  ovo:OVO003751;
-        dcterms:title         "Codelijst boortypes in jsonld rdf-formaat."@nl;
-        dcat:accessURL        <https://github.com/bodemenondergrond/codelijst-boortypes.git>;
-        dcat:compressFormat   <http://www.iana.org/assignments/media-types/application/gzip>;
-        dcat:downloadURL      <https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-boortypes.0.1.1.boortypes.jsonld>;
-        dcat:mediaType        <https://www.iana.org/assignments/media-types/application/ld+json>;
-        foaf:page             <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-boortypes.0.1.1.boortypes_jsonld.html> .
 
 omg_package:be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-boortype.0.1.0
         rdf:type               dcat:Distribution , spdx:Package;
