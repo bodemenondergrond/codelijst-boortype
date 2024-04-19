@@ -1,5 +1,6 @@
 "uri","type","dc.id","collection","notation","prefLabel","altLabel","broader","broaderTransitive","broadMatch","changeNote","closeMatch","definition","editorialNote","exactMatch","example","hiddenLabel","historyNote","inScheme","mappingRelation","note","related","relatedMatch","scopeNote","semanticRelation","topConceptOf"
 "colt:boortypes","skos:Collection","boortypes",,,"Collectie van boortypes.",,,,,,,,,,,,,"cs","boortype",,,,,,
+"cs:boortype","skos:ConceptScheme","boortypes",,,"boortypes",,,,,,,,,,,,,,,,,,,,
 "ct:0","skos:Concept","0","colt:boortypes",,"onbekend",,,,,,,,,,,,,"cs:boortype",,,,,,,"cs:boortype"
 "ct:1","skos:Concept","1","colt:boortypes",,"droge boring",,,,,,,,,,,,,"cs:boortype",,,,,,,"cs:boortype"
 "ct:10","skos:Concept","10","colt:boortypes",,"luchthamer",,,,,,,,,,,,,"cs:boortype",,,,,,,"cs:boortype"

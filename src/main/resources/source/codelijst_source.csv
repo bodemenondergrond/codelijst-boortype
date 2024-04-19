@@ -29,3 +29,4 @@ ct:23,skos:Concept,23,colt:boortypes,,steenboring,,,,,,,,,,,,,cs:boortype,,,,,,,
 ct:17,skos:Concept,17,colt:boortypes,,trilboring,,,,,,,,,,,,,cs:boortype,,,,,,,cs:boortype
 ct:22,skos:Concept,22,colt:boortypes,,voorput,,,,,,,,,,,,,cs:boortype,,,,,,,cs:boortype
 ct:7,skos:Concept,7,colt:boortypes,,zuigboring,,,,,,,,,,,,,cs:boortype,,,,,,,cs:boortype
+cs:boortype,skos:ConceptScheme,boortypes,,,boortypes,,,,,,,,,,,,,,,,,,,,

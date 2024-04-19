@@ -1,646 +1,344 @@
 {
-    "@graph": [
-        {
-            "@id": "ct:14",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "ramkernboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "14",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cs:boortype",
-            "skos:hasTopConcept": [
-                {
-                    "@id": "ct:19"
-                },
-                {
-                    "@id": "ct:6"
-                },
-                {
-                    "@id": "ct:25"
-                },
-                {
-                    "@id": "ct:20"
-                },
-                {
-                    "@id": "ct:26"
-                },
-                {
-                    "@id": "ct:21"
-                },
-                {
-                    "@id": "ct:27"
-                },
-                {
-                    "@id": "ct:14"
-                },
-                {
-                    "@id": "ct:22"
-                },
-                {
-                    "@id": "ct:15"
-                },
-                {
-                    "@id": "ct:23"
-                },
-                {
-                    "@id": "ct:10"
-                },
-                {
-                    "@id": "ct:1"
-                },
-                {
-                    "@id": "ct:24"
-                },
-                {
-                    "@id": "ct:28"
-                },
-                {
-                    "@id": "ct:11"
-                },
-                {
-                    "@id": "ct:2"
-                },
-                {
-                    "@id": "ct:7"
-                },
-                {
-                    "@id": "ct:12"
-                },
-                {
-                    "@id": "ct:9"
-                },
-                {
-                    "@id": "ct:3"
-                },
-                {
-                    "@id": "ct:16"
-                },
-                {
-                    "@id": "ct:8"
-                },
-                {
-                    "@id": "ct:13"
-                },
-                {
-                    "@id": "ct:4"
-                },
-                {
-                    "@id": "ct:17"
-                },
-                {
-                    "@id": "ct:5"
-                },
-                {
-                    "@id": "ct:18"
-                },
-                {
-                    "@id": "ct:0"
-                }
-            ]
-        },
-        {
-            "@id": "ct:4",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "spiraalboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "4",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:24",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "graafmachine"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "24",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:15",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "slagboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "15",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:5",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "gestoken boring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "5",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:25",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "luchthevelboren of air-lift boren"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "25",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:16",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "spade"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "16",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:10",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "luchthamer"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "10",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "colt:boortypes",
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Collectie van boortypes."
-            },
-            "skos:member": [
-                {
-                    "@id": "ct:17"
-                },
-                {
-                    "@id": "ct:22"
-                },
-                {
-                    "@id": "ct:1"
-                },
-                {
-                    "@id": "ct:15"
-                },
-                {
-                    "@id": "ct:13"
-                },
-                {
-                    "@id": "ct:6"
-                },
-                {
-                    "@id": "ct:8"
-                },
-                {
-                    "@id": "ct:11"
-                },
-                {
-                    "@id": "ct:4"
-                },
-                {
-                    "@id": "ct:16"
-                },
-                {
-                    "@id": "ct:14"
-                },
-                {
-                    "@id": "ct:9"
-                },
-                {
-                    "@id": "ct:12"
-                },
-                {
-                    "@id": "ct:5"
-                },
-                {
-                    "@id": "ct:20"
-                },
-                {
-                    "@id": "ct:19"
-                },
-                {
-                    "@id": "ct:27"
-                },
-                {
-                    "@id": "ct:7"
-                },
-                {
-                    "@id": "ct:0"
-                },
-                {
-                    "@id": "ct:10"
-                },
-                {
-                    "@id": "ct:3"
-                },
-                {
-                    "@id": "ct:23"
-                },
-                {
-                    "@id": "ct:25"
-                },
-                {
-                    "@id": "ct:28"
-                },
-                {
-                    "@id": "ct:2"
-                },
-                {
-                    "@id": "ct:18"
-                },
-                {
-                    "@id": "ct:26"
-                },
-                {
-                    "@id": "ct:21"
-                },
-                {
-                    "@id": "ct:24"
-                }
-            ],
-            "@type": "skos:Collection",
-            "dc:identifier": "boortypes",
-            "skos:mappingRelation": {
-                "@id": "file:///tmp/RtmplX5fzY/boortype"
-            },
-            "skos:inScheme": {
-                "@id": "file:///tmp/RtmplX5fzY/cs"
-            }
-        },
-        {
-            "@id": "ct:17",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "trilboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "17",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:22",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "voorput"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "22",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:1",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "droge boring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "1",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:13",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "avegaarboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "13",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:6",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "spoelboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "6",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:8",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "kernboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "8",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:11",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "geen boring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "11",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:9",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "rollerbit"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "9",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:12",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "meerdere technieken"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "12",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:20",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "handboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "20",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:19",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "omgek. spoelboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "19",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:27",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "roto-sonische boring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "27",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:7",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "zuigboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "7",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:0",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "onbekend"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "0",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:3",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "pulsboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "3",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:23",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "steenboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "23",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:28",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "diagrafieboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "28",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:2",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "lepelboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "2",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:18",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "edelmanboring"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "18",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:26",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "lansen"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "26",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:21",
-            "skos:topConceptOf": {
-                "@id": "cs:boortype"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "ramguts"
-            },
-            "skos:inScheme": {
-                "@id": "cs:boortype"
-            },
-            "dc:identifier": "21",
-            "@type": "skos:Concept"
-        }
-    ],
-    "@context": {
-        "cs": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
-        "ct": "https://data.bodemenondergrond.vlaanderen.be/id/concept/boortypes/",
-        "dct": "http://purl.org/dc/terms/",
-        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "colt": "https://data.bodemenondergrond.vlaanderen.be/id/collection/boortypes/",
-        "dc": "http://purl.org/dc/elements/1.1/",
-        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
+  "@graph" : [ {
+    "@id" : "colt:boortypes",
+    "@type" : "skos:Collection",
+    "identifier" : "boortypes",
+    "member" : [ "ct:24", "ct:21", "ct:26", "ct:18", "ct:28", "ct:2", "ct:25", "ct:23", "ct:3", "ct:10", "ct:0", "ct:7", "ct:27", "ct:19", "ct:20", "ct:5", "ct:12", "ct:9", "ct:14", "ct:16", "ct:4", "ct:11", "ct:8", "ct:13", "ct:6", "ct:15", "ct:1", "ct:22", "ct:17" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "Collectie van boortypes."
     }
+  }, {
+    "@id" : "ct:0",
+    "@type" : "skos:Concept",
+    "identifier" : "0",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "onbekend"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:1",
+    "@type" : "skos:Concept",
+    "identifier" : "1",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "droge boring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:10",
+    "@type" : "skos:Concept",
+    "identifier" : "10",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "luchthamer"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:11",
+    "@type" : "skos:Concept",
+    "identifier" : "11",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "geen boring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:12",
+    "@type" : "skos:Concept",
+    "identifier" : "12",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "meerdere technieken"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:13",
+    "@type" : "skos:Concept",
+    "identifier" : "13",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "avegaarboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:14",
+    "@type" : "skos:Concept",
+    "identifier" : "14",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "ramkernboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:15",
+    "@type" : "skos:Concept",
+    "identifier" : "15",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "slagboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:16",
+    "@type" : "skos:Concept",
+    "identifier" : "16",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "spade"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:17",
+    "@type" : "skos:Concept",
+    "identifier" : "17",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "trilboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:18",
+    "@type" : "skos:Concept",
+    "identifier" : "18",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "edelmanboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:19",
+    "@type" : "skos:Concept",
+    "identifier" : "19",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "omgek. spoelboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:2",
+    "@type" : "skos:Concept",
+    "identifier" : "2",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "lepelboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:20",
+    "@type" : "skos:Concept",
+    "identifier" : "20",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "handboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:21",
+    "@type" : "skos:Concept",
+    "identifier" : "21",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "ramguts"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:22",
+    "@type" : "skos:Concept",
+    "identifier" : "22",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "voorput"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:23",
+    "@type" : "skos:Concept",
+    "identifier" : "23",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "steenboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:24",
+    "@type" : "skos:Concept",
+    "identifier" : "24",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "graafmachine"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:25",
+    "@type" : "skos:Concept",
+    "identifier" : "25",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "luchthevelboren of air-lift boren"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:26",
+    "@type" : "skos:Concept",
+    "identifier" : "26",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "lansen"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:27",
+    "@type" : "skos:Concept",
+    "identifier" : "27",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "roto-sonische boring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:28",
+    "@type" : "skos:Concept",
+    "identifier" : "28",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "diagrafieboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:3",
+    "@type" : "skos:Concept",
+    "identifier" : "3",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "pulsboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:4",
+    "@type" : "skos:Concept",
+    "identifier" : "4",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "spiraalboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:5",
+    "@type" : "skos:Concept",
+    "identifier" : "5",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "gestoken boring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:6",
+    "@type" : "skos:Concept",
+    "identifier" : "6",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "spoelboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:7",
+    "@type" : "skos:Concept",
+    "identifier" : "7",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "zuigboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:8",
+    "@type" : "skos:Concept",
+    "identifier" : "8",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "kernboring"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "ct:9",
+    "@type" : "skos:Concept",
+    "identifier" : "9",
+    "inScheme" : "cs:boortype",
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "rollerbit"
+    },
+    "topConceptOf" : "cs:boortype"
+  }, {
+    "@id" : "cs:boortype",
+    "@type" : "skos:ConceptScheme",
+    "identifier" : "boortypes",
+    "hasTopConcept" : [ "ct:0", "ct:18", "ct:5", "ct:17", "ct:4", "ct:13", "ct:8", "ct:3", "ct:16", "ct:9", "ct:12", "ct:7", "ct:2", "ct:11", "ct:28", "ct:24", "ct:1", "ct:10", "ct:23", "ct:15", "ct:22", "ct:14", "ct:27", "ct:21", "ct:26", "ct:20", "ct:25", "ct:19", "ct:6" ],
+    "prefLabel" : {
+      "@language" : "nl",
+      "@value" : "boortypes"
+    }
+  } ],
+  "@context" : {
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "hasTopConcept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "@type" : "@id"
+    },
+    "member" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#member",
+      "@type" : "@id"
+    },
+    "cs" : "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+    "ct" : "https://data.bodemenondergrond.vlaanderen.be/id/concept/boortypes/",
+    "dct" : "http://purl.org/dc/terms/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "colt" : "https://data.bodemenondergrond.vlaanderen.be/id/collection/boortypes/",
+    "dc" : "http://purl.org/dc/elements/1.1/",
+    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#"
+  }
 }

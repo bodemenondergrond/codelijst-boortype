@@ -1,192 +1,193 @@
-@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/boortypes/> .
-@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
-@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortypes/> .
-@prefix dc:   <http://purl.org/dc/elements/1.1/> .
-@prefix dct:  <http://purl.org/dc/terms/> .
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix cs:    <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
+@prefix ct:    <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortypes/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix colt:  <https://data.bodemenondergrond.vlaanderen.be/id/collection/boortypes/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix xkos:  <http://rdf-vocabulary.ddialliance.org/xkos#> .
 
-ct:14   rdf:type           skos:Concept;
-        dc:identifier      "14";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "ramkernboring"@nl;
+ct:23   a                  skos:Concept ;
+        dc:identifier      "23" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "steenboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:4    rdf:type           skos:Concept;
-        dc:identifier      "4";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "spiraalboring"@nl;
+ct:3    a                  skos:Concept ;
+        dc:identifier      "3" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "pulsboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:24   rdf:type           skos:Concept;
-        dc:identifier      "24";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "graafmachine"@nl;
+ct:9    a                  skos:Concept ;
+        dc:identifier      "9" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "rollerbit"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:15   rdf:type           skos:Concept;
-        dc:identifier      "15";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "slagboring"@nl;
+ct:13   a                  skos:Concept ;
+        dc:identifier      "13" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "avegaarboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:5    rdf:type           skos:Concept;
-        dc:identifier      "5";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "gestoken boring"@nl;
+ct:19   a                  skos:Concept ;
+        dc:identifier      "19" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "omgek. spoelboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:25   rdf:type           skos:Concept;
-        dc:identifier      "25";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "luchthevelboren of air-lift boren"@nl;
+ct:22   a                  skos:Concept ;
+        dc:identifier      "22" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "voorput"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:16   rdf:type           skos:Concept;
-        dc:identifier      "16";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "spade"@nl;
+cs:boortype  a              skos:ConceptScheme ;
+        dc:identifier       "boortypes" ;
+        skos:hasTopConcept  ct:0 , ct:18 , ct:5 , ct:17 , ct:4 , ct:13 , ct:8 , ct:16 , ct:3 , ct:9 , ct:12 , ct:7 , ct:2 , ct:11 , ct:28 , ct:24 , ct:1 , ct:10 , ct:23 , ct:15 , ct:22 , ct:14 , ct:27 , ct:21 , ct:26 , ct:20 , ct:25 , ct:6 , ct:19 ;
+        skos:prefLabel      "boortypes"@nl .
+
+ct:28   a                  skos:Concept ;
+        dc:identifier      "28" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "diagrafieboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:10   rdf:type           skos:Concept;
-        dc:identifier      "10";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "luchthamer"@nl;
+ct:2    a                  skos:Concept ;
+        dc:identifier      "2" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "lepelboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-colt:boortypes  rdf:type      skos:Collection;
-        dc:identifier         "boortypes";
-        skos:inScheme         <file:///tmp/RtmplX5fzY/cs>;
-        skos:mappingRelation  <file:///tmp/RtmplX5fzY/boortype>;
-        skos:member           ct:17 , ct:22 , ct:1 , ct:15 , ct:13 , ct:6 , ct:8 , ct:11 , ct:4 , ct:16 , ct:14 , ct:9 , ct:12 , ct:5 , ct:20 , ct:19 , ct:27 , ct:7 , ct:0 , ct:10 , ct:3 , ct:23 , ct:25 , ct:28 , ct:2 , ct:18 , ct:26 , ct:21 , ct:24;
-        skos:prefLabel        "Collectie van boortypes."@nl .
-
-ct:6    rdf:type           skos:Concept;
-        dc:identifier      "6";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "spoelboring"@nl;
+ct:8    a                  skos:Concept ;
+        dc:identifier      "8" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "kernboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:0    rdf:type           skos:Concept;
-        dc:identifier      "0";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "onbekend"@nl;
+ct:12   a                  skos:Concept ;
+        dc:identifier      "12" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "meerdere technieken"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:26   rdf:type           skos:Concept;
-        dc:identifier      "26";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "lansen"@nl;
+ct:18   a                  skos:Concept ;
+        dc:identifier      "18" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "edelmanboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:20   rdf:type           skos:Concept;
-        dc:identifier      "20";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "handboring"@nl;
+ct:21   a                  skos:Concept ;
+        dc:identifier      "21" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "ramguts"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:17   rdf:type           skos:Concept;
-        dc:identifier      "17";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "trilboring"@nl;
+ct:27   a                  skos:Concept ;
+        dc:identifier      "27" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "roto-sonische boring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:11   rdf:type           skos:Concept;
-        dc:identifier      "11";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "geen boring"@nl;
+ct:1    a                  skos:Concept ;
+        dc:identifier      "1" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "droge boring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:7    rdf:type           skos:Concept;
-        dc:identifier      "7";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "zuigboring"@nl;
+ct:7    a                  skos:Concept ;
+        dc:identifier      "7" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "zuigboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:1    rdf:type           skos:Concept;
-        dc:identifier      "1";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "droge boring"@nl;
+ct:11   a                  skos:Concept ;
+        dc:identifier      "11" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "geen boring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:27   rdf:type           skos:Concept;
-        dc:identifier      "27";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "roto-sonische boring"@nl;
+ct:17   a                  skos:Concept ;
+        dc:identifier      "17" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "trilboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:21   rdf:type           skos:Concept;
-        dc:identifier      "21";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "ramguts"@nl;
+ct:20   a                  skos:Concept ;
+        dc:identifier      "20" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "handboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:18   rdf:type           skos:Concept;
-        dc:identifier      "18";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "edelmanboring"@nl;
+ct:26   a                  skos:Concept ;
+        dc:identifier      "26" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "lansen"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:12   rdf:type           skos:Concept;
-        dc:identifier      "12";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "meerdere technieken"@nl;
+ct:0    a                  skos:Concept ;
+        dc:identifier      "0" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "onbekend"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:8    rdf:type           skos:Concept;
-        dc:identifier      "8";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "kernboring"@nl;
+ct:6    a                  skos:Concept ;
+        dc:identifier      "6" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "spoelboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:2    rdf:type           skos:Concept;
-        dc:identifier      "2";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "lepelboring"@nl;
+colt:boortypes  a       skos:Collection ;
+        dc:identifier   "boortypes" ;
+        skos:member     ct:24 , ct:21 , ct:26 , ct:18 , ct:2 , ct:28 , ct:25 , ct:23 , ct:3 , ct:10 , ct:0 , ct:7 , ct:27 , ct:19 , ct:20 , ct:5 , ct:12 , ct:9 , ct:14 , ct:16 , ct:4 , ct:11 , ct:8 , ct:6 , ct:13 , ct:15 , ct:1 , ct:22 , ct:17 ;
+        skos:prefLabel  "Collectie van boortypes."@nl .
+
+ct:10   a                  skos:Concept ;
+        dc:identifier      "10" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "luchthamer"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:28   rdf:type           skos:Concept;
-        dc:identifier      "28";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "diagrafieboring"@nl;
+ct:16   a                  skos:Concept ;
+        dc:identifier      "16" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "spade"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:22   rdf:type           skos:Concept;
-        dc:identifier      "22";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "voorput"@nl;
+ct:25   a                  skos:Concept ;
+        dc:identifier      "25" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "luchthevelboren of air-lift boren"@nl ;
         skos:topConceptOf  cs:boortype .
 
-cs:boortype  skos:hasTopConcept  ct:19 , ct:6 , ct:25 , ct:20 , ct:26 , ct:21 , ct:27 , ct:14 , ct:22 , ct:15 , ct:23 , ct:10 , ct:1 , ct:24 , ct:28 , ct:11 , ct:2 , ct:7 , ct:12 , ct:9 , ct:3 , ct:16 , ct:8 , ct:13 , ct:4 , ct:17 , ct:5 , ct:18 , ct:0 .
-
-ct:19   rdf:type           skos:Concept;
-        dc:identifier      "19";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "omgek. spoelboring"@nl;
+ct:5    a                  skos:Concept ;
+        dc:identifier      "5" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "gestoken boring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:13   rdf:type           skos:Concept;
-        dc:identifier      "13";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "avegaarboring"@nl;
+ct:15   a                  skos:Concept ;
+        dc:identifier      "15" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "slagboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:9    rdf:type           skos:Concept;
-        dc:identifier      "9";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "rollerbit"@nl;
+ct:24   a                  skos:Concept ;
+        dc:identifier      "24" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "graafmachine"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:3    rdf:type           skos:Concept;
-        dc:identifier      "3";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "pulsboring"@nl;
+ct:4    a                  skos:Concept ;
+        dc:identifier      "4" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "spiraalboring"@nl ;
         skos:topConceptOf  cs:boortype .
 
-ct:23   rdf:type           skos:Concept;
-        dc:identifier      "23";
-        skos:inScheme      cs:boortype;
-        skos:prefLabel     "steenboring"@nl;
+ct:14   a                  skos:Concept ;
+        dc:identifier      "14" ;
+        skos:inScheme      cs:boortype ;
+        skos:prefLabel     "ramkernboring"@nl ;
         skos:topConceptOf  cs:boortype .
