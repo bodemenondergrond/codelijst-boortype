@@ -66,7 +66,7 @@ omg_distribution:codelijst-boortypes.0.1.0.boortypes_csv
         dcterms:description   "Codelijst boortypes, geserialiseerd in csv tabelformaat."@nl;
         dcterms:format        file_type:CSV;
         dcterms:identifier    omg_distribution:codelijst-boortypes.0.1.0.boortypes_csv;
-        dcterms:issued        "2024-01-02"^^xsd:date;
+        dcterms:issued        "2024-04-19"^^xsd:date;
         dcterms:rightsHolder  ovo:OVO003751;
         dcterms:title         "Codelijst boortypes in text/csv formaat."@nl;
         dcat:accessURL        <https://github.com/bodemenondergrond/codelijst-boortypes.git>;
@@ -86,7 +86,7 @@ omg_dataset:codelijst-boortypes.0.1.0
         dcterms:description         "Deze dataset bevat een lijst van testconcepten, die gebruikt worden binnen het beleidsdomein bodemenondergrond van de Vlaamse Overheid."@nl;
         dcterms:identifier          omg_dataset:codelijst-boortypes.0.1.0;
         dcterms:isVersionOf         omg_dataset:codelijst-boortypes;
-        dcterms:issued              "2024-01-02"^^xsd:date;
+        dcterms:issued              "2024-04-19"^^xsd:date;
         dcterms:language            language:NLD;
         dcterms:license             <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>;
         dcterms:publisher           ovo:OVO003323;
@@ -110,7 +110,7 @@ omg_distribution:codelijst-boortypes.0.1.0.boortypes_rdf
         dcterms:description   "Codelijst boortypes, geserialiseerd in rdf/xml bestand."@nl;
         dcterms:format        file_type:RDF_XML;
         dcterms:identifier    omg_distribution:codelijst-boortypes.0.1.0.boortypes_rdf;
-        dcterms:issued        "2024-01-02"^^xsd:date;
+        dcterms:issued        "2024-04-19"^^xsd:date;
         dcterms:rightsHolder  ovo:OVO003751;
         dcterms:title         "Codelijst boortypes in xml rdf-formaat."@nl;
         dcat:accessURL        <https://github.com/bodemenondergrond/codelijst-boortypes.git>;
@@ -127,7 +127,7 @@ omg_distribution:codelijst-boortypes.0.1.0.boortypes_jsonld
         dcterms:description   "Codelijst boortypes, geserialiseerd in een jsonld bestand."@nl;
         dcterms:format        file_type:JSON_LD;
         dcterms:identifier    omg_distribution:codelijst-boortypes.0.1.0.boortypes_jsonld;
-        dcterms:issued        "2024-01-02"^^xsd:date;
+        dcterms:issued        "2024-04-19"^^xsd:date;
         dcterms:rightsHolder  ovo:OVO003751;
         dcterms:title         "Codelijst boortypes in jsonld rdf-formaat."@nl;
         dcat:accessURL        <https://github.com/bodemenondergrond/codelijst-boortypes.git>;
@@ -195,7 +195,7 @@ omg_distribution:codelijst-boortypes.0.1.0.boortypes_ttl
         dcterms:description   "Codelijst boortypes, geserialiseerd in Turtle bestand."@nl;
         dcterms:format        file_type:RDF_TURTLE;
         dcterms:identifier    omg_distribution:codelijst-boortypes.0.1.0.boortypes_ttl;
-        dcterms:issued        "2024-01-02"^^xsd:date;
+        dcterms:issued        "2024-04-19"^^xsd:date;
         dcterms:rightsHolder  ovo:OVO003751;
         dcterms:title         "Codelijst boortypes in Turtle rdf-formaat."@nl;
         dcat:accessURL        <https://github.com/bodemenondergrond/codelijst-boortypes.git>;
@@ -301,7 +301,7 @@ omg_package:be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-boortype.0.1
         dcterms:description    "Codelijst boortypes, Jar maven package."@nl;
         dcterms:format         file_type:JAR;
         dcterms:identifier     omg_package:be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-boortype.0.1.0;
-        dcterms:issued         "2024-01-02"^^xsd:date;
+        dcterms:issued         "2024-04-19"^^xsd:date;
         dcterms:rightsHolder   ovo:OVO003751;
         dcterms:title          "Codelijst boortypes in jar-formaat."@nl;
         spdx:downloadLocation  <https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/bodemenondergrond/data/id/graph/codelijst-boortype/0.1.0/codelijst-boortype-0.1.0.jar>;
@@ -318,7 +318,7 @@ omg_distribution:codelijst-boortypes.0.1.0.boortypes_xsd
         dcterms:description   "Codelijst boortypes, geserialiseerd in een xsd bestand met een enumeratie."@nl;
         dcterms:format        file_type:XSD;
         dcterms:identifier    omg_distribution:codelijst-boortypes.0.1.0.boortypes_xsd;
-        dcterms:issued        "2024-01-02"^^xsd:date;
+        dcterms:issued        "2024-04-19"^^xsd:date;
         dcterms:rightsHolder  ovo:OVO003751;
         dcterms:title         "Codelijst boortypes in xml/xsd formaat."@nl;
         dcat:accessURL        <https://github.com/bodemenondergrond/codelijst-boortypes.git>;

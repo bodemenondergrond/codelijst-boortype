@@ -20,12 +20,12 @@
                 "@language": "nl",
                 "@value": "Codelijst boortypes, geserialiseerd in csv tabelformaat."
             },
-            "dcterms:issued": {
-                "@value": "2024-01-02",
-                "@type": "xsd:date"
-            },
             "dcat:downloadURL": {
                 "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-boortypes.0.1.0.boortypes.csv"
+            },
+            "dcterms:issued": {
+                "@value": "2024-04-19",
+                "@type": "xsd:date"
             },
             "@type": "dcat:Distribution",
             "rdfs:label": {
@@ -52,10 +52,6 @@
             "@id": "omg_dataset:codelijst-boortypes.0.1.0",
             "dcterms:identifier": {
                 "@id": "omg_dataset:codelijst-boortypes.0.1.0"
-            },
-            "dcterms:issued": {
-                "@value": "2024-01-02",
-                "@type": "xsd:date"
             },
             "dcterms:spatial": [
                 {
@@ -137,8 +133,9 @@
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
             },
-            "dcat:contactPoint": {
-                "@id": "omg_id:vcard/helpdesk"
+            "dcterms:issued": {
+                "@value": "2024-04-19",
+                "@type": "xsd:date"
             },
             "dcterms:title": {
                 "@language": "nl",
@@ -154,6 +151,9 @@
             "dcterms:accrualPeriodicity": {
                 "@id": "frequency:IRREG"
             },
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
+            },
             "dcat:landingPage": {
                 "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html"
             },
@@ -167,10 +167,6 @@
             "dcterms:accessRights": {
                 "@id": "access_right:PUBLIC"
             },
-            "dcterms:issued": {
-                "@value": "2024-01-02",
-                "@type": "xsd:date"
-            },
             "dcterms:description": {
                 "@language": "nl",
                 "@value": "Codelijst boortypes, geserialiseerd in een xsd bestand met een enumeratie."
@@ -182,6 +178,10 @@
             },
             "foaf:page": {
                 "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-boortypes.0.1.0.boortypes_xsd.html"
+            },
+            "dcterms:issued": {
+                "@value": "2024-04-19",
+                "@type": "xsd:date"
             },
             "dcat:downloadURL": {
                 "@id": "https://datasets.bodemenondergrond.vlaanderen.be/be.vlaanderen.bodemenondergrond.data.id.distribution.codelijst-boortypes.0.1.0.boortypes.xsd"
@@ -213,10 +213,6 @@
                 "@language": "nl",
                 "@value": "Codelijst boortypes, in xml rdf-formaat."
             },
-            "dcterms:issued": {
-                "@value": "2024-01-02",
-                "@type": "xsd:date"
-            },
             "dcterms:format": {
                 "@id": "file_type:RDF_XML"
             },
@@ -245,6 +241,10 @@
                 "@language": "nl",
                 "@value": "Codelijst boortypes in xml rdf-formaat."
             },
+            "dcterms:issued": {
+                "@value": "2024-04-19",
+                "@type": "xsd:date"
+            },
             "dcterms:rightsHolder": {
                 "@id": "ovo:OVO003751"
             },
@@ -257,6 +257,10 @@
         },
         {
             "@id": "omg_distribution:codelijst-boortypes.0.1.0.boortypes_ttl",
+            "dcterms:issued": {
+                "@value": "2024-04-19",
+                "@type": "xsd:date"
+            },
             "foaf:page": {
                 "@id": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/codelijst-boortypes.0.1.0.boortypes_ttl.html"
             },
@@ -268,10 +272,6 @@
             },
             "dcat:compressFormat": {
                 "@id": "http://www.iana.org/assignments/media-types/application/gzip"
-            },
-            "dcterms:issued": {
-                "@value": "2024-01-02",
-                "@type": "xsd:date"
             },
             "dcterms:title": {
                 "@language": "nl",
@@ -324,6 +324,10 @@
             "dcat:compressFormat": {
                 "@id": "http://www.iana.org/assignments/media-types/application/gzip"
             },
+            "dcterms:issued": {
+                "@value": "2024-04-19",
+                "@type": "xsd:date"
+            },
             "dcterms:title": {
                 "@language": "nl",
                 "@value": "Codelijst boortypes in jsonld rdf-formaat."
@@ -345,11 +349,7 @@
             "dcterms:format": {
                 "@id": "file_type:JSON_LD"
             },
-            "@type": "dcat:Distribution",
-            "dcterms:issued": {
-                "@value": "2024-01-02",
-                "@type": "xsd:date"
-            }
+            "@type": "dcat:Distribution"
         },
         {
             "@id": "omg_dataset:codelijst-boortypes",
@@ -386,10 +386,6 @@
                 "@language": "nl",
                 "@value": "Package codelijst-boortype"
             },
-            "dcterms:issued": {
-                "@value": "2024-01-02",
-                "@type": "xsd:date"
-            },
             "dcterms:accessRights": {
                 "@id": "access_right:PUBLIC"
             },
@@ -399,6 +395,10 @@
             },
             "dcterms:format": {
                 "@id": "file_type:JAR"
+            },
+            "dcterms:issued": {
+                "@value": "2024-04-19",
+                "@type": "xsd:date"
             },
             "spdx:packageName": "be.vlaanderen.bodemenondergrond.data.id.graph.codelijst-boortype",
             "dcterms:description": {
