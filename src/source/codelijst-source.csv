@@ -1,0 +1,32 @@
+uri,type,dc.identifier,collections,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
+collectie:boortypes,skos:Collection,collectie_boortypes,,collectie_boortypes,Collectie van boortypes.,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,
+concept:13,skos:Concept,13,collectie:boortypes,13,avegaarboring,,,,,,,TODO,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:28,skos:Concept,28,collectie:boortypes,28,diagrafieboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:1,skos:Concept,1,collectie:boortypes,1,droge boring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:18,skos:Concept,18,collectie:boortypes,18,edelmanboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:11,skos:Concept,11,collectie:boortypes,11,geen boring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:5,skos:Concept,5,collectie:boortypes,5,gestoken boring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:24,skos:Concept,24,collectie:boortypes,24,graafmachine,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:20,skos:Concept,20,collectie:boortypes,20,handboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:8,skos:Concept,8,collectie:boortypes,8,kernboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:26,skos:Concept,26,collectie:boortypes,26,lansen,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:2,skos:Concept,2,collectie:boortypes,2,lepelboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:10,skos:Concept,10,collectie:boortypes,10,luchthamer,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:25,skos:Concept,25,collectie:boortypes,25,luchthevelboren of air-lift boren,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:12,skos:Concept,12,collectie:boortypes,12,meerdere technieken,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:19,skos:Concept,19,collectie:boortypes,19,omgek. spoelboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:0,skos:Concept,0,collectie:boortypes,0,onbekend,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:3,skos:Concept,3,collectie:boortypes,3,pulsboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:21,skos:Concept,21,collectie:boortypes,21,ramguts,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:14,skos:Concept,14,collectie:boortypes,14,ramkernboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:9,skos:Concept,9,collectie:boortypes,9,rollerbit,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:27,skos:Concept,27,collectie:boortypes,27,roto-sonische boring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:15,skos:Concept,15,collectie:boortypes,15,slagboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:16,skos:Concept,16,collectie:boortypes,16,spade,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:4,skos:Concept,4,collectie:boortypes,4,spiraalboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:6,skos:Concept,6,collectie:boortypes,6,spoelboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:23,skos:Concept,23,collectie:boortypes,23,steenboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:17,skos:Concept,17,collectie:boortypes,17,trilboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:22,skos:Concept,22,collectie:boortypes,22,voorput,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+concept:7,skos:Concept,7,collectie:boortypes,7,zuigboring,,,,,,,,,,,,,conceptscheme:boortype,,,,,,,conceptscheme:boortype
+conceptscheme:boortype,skos:ConceptScheme,boortypes,,boortypes,boortypes,,,,,,,,,,,,,,,,,,,,
