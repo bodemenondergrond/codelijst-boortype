@@ -207,7 +207,7 @@
             "@id": "http://purl.org/dc/terms/conformsTo",
             "@type": "@id"
         },
-        "dc_identifier": {
+        "dc.identifier": {
             "@id": "http://purl.org/dc/elements/1.1/identifier"
         },
         "dc.language": {
@@ -389,7 +389,7 @@
         {
             "id": "collectie:boortypes",
             "type": "skos:Collection",
-            "dc_identifier": "collectie_boortypes",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.collection.boortype.boortypes",
             "inScheme": "conceptscheme:boortype",
             "member": [
                 "concept:0",
@@ -428,7 +428,7 @@
         {
             "id": "concept:0",
             "type": "skos:Concept",
-            "dc_identifier": "0",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.0",
             "inScheme": "conceptscheme:boortype",
             "notation": "0",
             "prefLabel": "onbekend",
@@ -437,7 +437,7 @@
         {
             "id": "concept:1",
             "type": "skos:Concept",
-            "dc_identifier": "1",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.1",
             "inScheme": "conceptscheme:boortype",
             "notation": "1",
             "prefLabel": "droge boring",
@@ -446,7 +446,7 @@
         {
             "id": "concept:10",
             "type": "skos:Concept",
-            "dc_identifier": "10",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.10",
             "inScheme": "conceptscheme:boortype",
             "notation": "10",
             "prefLabel": "luchthamer",
@@ -455,7 +455,7 @@
         {
             "id": "concept:11",
             "type": "skos:Concept",
-            "dc_identifier": "11",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.11",
             "inScheme": "conceptscheme:boortype",
             "notation": "11",
             "prefLabel": "geen boring",
@@ -464,7 +464,7 @@
         {
             "id": "concept:12",
             "type": "skos:Concept",
-            "dc_identifier": "12",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.12",
             "inScheme": "conceptscheme:boortype",
             "notation": "12",
             "prefLabel": "meerdere technieken",
@@ -473,7 +473,7 @@
         {
             "id": "concept:13",
             "type": "skos:Concept",
-            "dc_identifier": "13",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.13",
             "definition": "TODO",
             "inScheme": "conceptscheme:boortype",
             "notation": "13",
@@ -484,7 +484,7 @@
         {
             "id": "concept:14",
             "type": "skos:Concept",
-            "dc_identifier": "14",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.14",
             "inScheme": "conceptscheme:boortype",
             "notation": "14",
             "prefLabel": "ramkernboring",
@@ -493,7 +493,7 @@
         {
             "id": "concept:15",
             "type": "skos:Concept",
-            "dc_identifier": "15",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.15",
             "inScheme": "conceptscheme:boortype",
             "notation": "15",
             "prefLabel": "slagboring",
@@ -502,7 +502,7 @@
         {
             "id": "concept:16",
             "type": "skos:Concept",
-            "dc_identifier": "16",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.16",
             "inScheme": "conceptscheme:boortype",
             "notation": "16",
             "prefLabel": "spade",
@@ -511,7 +511,7 @@
         {
             "id": "concept:17",
             "type": "skos:Concept",
-            "dc_identifier": "17",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.17",
             "inScheme": "conceptscheme:boortype",
             "notation": "17",
             "prefLabel": "trilboring",
@@ -520,7 +520,7 @@
         {
             "id": "concept:18",
             "type": "skos:Concept",
-            "dc_identifier": "18",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.18",
             "inScheme": "conceptscheme:boortype",
             "notation": "18",
             "prefLabel": "edelmanboring",
@@ -529,7 +529,7 @@
         {
             "id": "concept:19",
             "type": "skos:Concept",
-            "dc_identifier": "19",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.19",
             "inScheme": "conceptscheme:boortype",
             "notation": "19",
             "prefLabel": "omgek. spoelboring",
@@ -538,7 +538,7 @@
         {
             "id": "concept:2",
             "type": "skos:Concept",
-            "dc_identifier": "2",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.2",
             "inScheme": "conceptscheme:boortype",
             "notation": "2",
             "prefLabel": "lepelboring",
@@ -547,7 +547,7 @@
         {
             "id": "concept:20",
             "type": "skos:Concept",
-            "dc_identifier": "20",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.20",
             "inScheme": "conceptscheme:boortype",
             "notation": "20",
             "prefLabel": "handboring",
@@ -556,7 +556,7 @@
         {
             "id": "concept:21",
             "type": "skos:Concept",
-            "dc_identifier": "21",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.21",
             "inScheme": "conceptscheme:boortype",
             "notation": "21",
             "prefLabel": "ramguts",
@@ -565,7 +565,7 @@
         {
             "id": "concept:22",
             "type": "skos:Concept",
-            "dc_identifier": "22",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.22",
             "inScheme": "conceptscheme:boortype",
             "notation": "22",
             "prefLabel": "voorput",
@@ -574,7 +574,7 @@
         {
             "id": "concept:23",
             "type": "skos:Concept",
-            "dc_identifier": "23",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.23",
             "inScheme": "conceptscheme:boortype",
             "notation": "23",
             "prefLabel": "steenboring",
@@ -583,7 +583,7 @@
         {
             "id": "concept:24",
             "type": "skos:Concept",
-            "dc_identifier": "24",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.24",
             "inScheme": "conceptscheme:boortype",
             "notation": "24",
             "prefLabel": "graafmachine",
@@ -592,7 +592,7 @@
         {
             "id": "concept:25",
             "type": "skos:Concept",
-            "dc_identifier": "25",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.25",
             "inScheme": "conceptscheme:boortype",
             "notation": "25",
             "prefLabel": "luchthevelboren of air-lift boren",
@@ -601,7 +601,7 @@
         {
             "id": "concept:26",
             "type": "skos:Concept",
-            "dc_identifier": "26",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.26",
             "inScheme": "conceptscheme:boortype",
             "notation": "26",
             "prefLabel": "lansen",
@@ -610,7 +610,7 @@
         {
             "id": "concept:27",
             "type": "skos:Concept",
-            "dc_identifier": "27",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.27",
             "inScheme": "conceptscheme:boortype",
             "notation": "27",
             "prefLabel": "roto-sonische boring",
@@ -619,7 +619,7 @@
         {
             "id": "concept:28",
             "type": "skos:Concept",
-            "dc_identifier": "28",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.28",
             "inScheme": "conceptscheme:boortype",
             "notation": "28",
             "prefLabel": "diagrafieboring",
@@ -628,7 +628,7 @@
         {
             "id": "concept:3",
             "type": "skos:Concept",
-            "dc_identifier": "3",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.3",
             "inScheme": "conceptscheme:boortype",
             "notation": "3",
             "prefLabel": "pulsboring",
@@ -637,7 +637,7 @@
         {
             "id": "concept:4",
             "type": "skos:Concept",
-            "dc_identifier": "4",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.4",
             "inScheme": "conceptscheme:boortype",
             "notation": "4",
             "prefLabel": "spiraalboring",
@@ -646,7 +646,7 @@
         {
             "id": "concept:5",
             "type": "skos:Concept",
-            "dc_identifier": "5",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.5",
             "inScheme": "conceptscheme:boortype",
             "notation": "5",
             "prefLabel": "gestoken boring",
@@ -655,7 +655,7 @@
         {
             "id": "concept:6",
             "type": "skos:Concept",
-            "dc_identifier": "6",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.6",
             "inScheme": "conceptscheme:boortype",
             "notation": "6",
             "prefLabel": "spoelboring",
@@ -664,7 +664,7 @@
         {
             "id": "concept:7",
             "type": "skos:Concept",
-            "dc_identifier": "7",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.7",
             "inScheme": "conceptscheme:boortype",
             "notation": "7",
             "prefLabel": "zuigboring",
@@ -673,7 +673,7 @@
         {
             "id": "concept:8",
             "type": "skos:Concept",
-            "dc_identifier": "8",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.8",
             "inScheme": "conceptscheme:boortype",
             "notation": "8",
             "prefLabel": "kernboring",
@@ -682,7 +682,7 @@
         {
             "id": "concept:9",
             "type": "skos:Concept",
-            "dc_identifier": "9",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.9",
             "inScheme": "conceptscheme:boortype",
             "notation": "9",
             "prefLabel": "rollerbit",
@@ -691,7 +691,7 @@
         {
             "id": "conceptscheme:boortype",
             "type": "skos:ConceptScheme",
-            "dc_identifier": "boortypes",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.boortype",
             "hasTopConcept": [
                 "concept:0",
                 "concept:10",
