@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
   <xs:simpleType name="boortypes">
     <xs:restriction base="xs:string">
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/23"/>

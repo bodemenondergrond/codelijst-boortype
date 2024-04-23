@@ -3,6 +3,7 @@
     xmlns:assettype="http://purl.org/adms/assettype/"
     xmlns:dbo="http://dbpedia.org/ontology/"
     xmlns:metadata="https://data.omgeving.vlaanderen.be/ns/metadata#"
+    xmlns:concept="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/"
     xmlns:omg_periodoftime="https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/"
     xmlns:dct="http://purl.org/dc/terms/"
     xmlns:conceptscheme="https://data.omgeving.vlaanderen.be/id/conceptscheme/"
@@ -27,6 +28,7 @@
     xmlns:omg_package="https://data.bodemenondergrond.vlaanderen.be/id/package/"
     xmlns:licence="http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/"
     xmlns:omg_service="https://data.bodemenondergrond.vlaanderen.be/id/service/"
+    xmlns:collectie="https://data.bodemenondergrond.vlaanderen.be/id/collection/boortype/"
     xmlns:access_right="http://publications.europa.eu/resource/authority/access-right/"
     xmlns:omg_distribution_doc="https://data.bodemenondergrond.vlaanderen.be/doc/distribution/"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -55,7 +57,7 @@
     <skos:notation>23</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>23</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.23</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/11">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -63,7 +65,7 @@
     <skos:notation>11</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>11</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.11</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/25">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -71,7 +73,7 @@
     <skos:notation>25</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>25</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.25</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/13">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -81,7 +83,7 @@
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <skos:definition xml:lang="nl">TODO</skos:definition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>13</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.13</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/21">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -89,7 +91,7 @@
     <skos:notation>21</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>21</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.21</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/5">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -97,7 +99,7 @@
     <skos:notation>5</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>5</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.5</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/3">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -105,7 +107,7 @@
     <skos:notation>3</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>3</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.3</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/1">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -113,7 +115,7 @@
     <skos:notation>1</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>1</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.1</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/16">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -121,7 +123,7 @@
     <skos:notation>16</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>16</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.16</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/collection/boortype/boortypes">
     <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/11"/>
@@ -136,10 +138,10 @@
     <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/20"/>
     <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/25"/>
     <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/4"/>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.collection.boortype.boortypes</dc:identifier>
     <skos:prefLabel xml:lang="nl">Collectie van boortypes.</skos:prefLabel>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/23"/>
-    <dc:identifier>collectie_boortypes</dc:identifier>
     <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/15"/>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <skos:member rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/2"/>
@@ -165,7 +167,7 @@
     <skos:notation>26</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>26</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.26</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/9">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -173,7 +175,7 @@
     <skos:notation>9</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>9</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.9</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/18">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -181,7 +183,7 @@
     <skos:notation>18</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>18</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.18</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/7">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -189,7 +191,7 @@
     <skos:notation>7</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>7</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.7</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/28">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -197,7 +199,7 @@
     <skos:notation>28</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>28</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.28</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/12">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -205,7 +207,7 @@
     <skos:notation>12</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>12</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.12</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/22">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -213,7 +215,7 @@
     <skos:notation>22</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>22</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.22</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/14">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -221,7 +223,7 @@
     <skos:notation>14</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>14</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.14</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/24">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -229,7 +231,7 @@
     <skos:notation>24</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>24</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.24</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/10">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -237,7 +239,7 @@
     <skos:notation>10</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>10</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.10</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype">
     <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/14"/>
@@ -245,17 +247,17 @@
     <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/4"/>
     <skos:prefLabel xml:lang="nl">boortypes</skos:prefLabel>
     <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/22"/>
-    <dc:identifier>boortypes</dc:identifier>
     <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/15"/>
     <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/26"/>
     <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/9"/>
     <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/1"/>
     <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/23"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/16"/>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.conceptscheme.boortype</dc:identifier>
     <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/12"/>
-    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/7"/>
+    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/16"/>
     <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/2"/>
+    <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/7"/>
     <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/8"/>
     <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/13"/>
     <skos:hasTopConcept rdf:resource="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/19"/>
@@ -280,7 +282,7 @@
     <skos:notation>20</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>20</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.20</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/4">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -288,7 +290,7 @@
     <skos:notation>4</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>4</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.4</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/2">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -296,7 +298,7 @@
     <skos:notation>2</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>2</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.2</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/0">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -304,7 +306,7 @@
     <skos:notation>0</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>0</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.0</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/19">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -312,7 +314,7 @@
     <skos:notation>19</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>19</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.19</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/8">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -320,7 +322,7 @@
     <skos:notation>8</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>8</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.8</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/27">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -328,7 +330,7 @@
     <skos:notation>27</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>27</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.27</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/15">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -336,7 +338,7 @@
     <skos:notation>15</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>15</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.15</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/6">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -344,7 +346,7 @@
     <skos:notation>6</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>6</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.6</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/17">
     <skos:topConceptOf rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
@@ -352,6 +354,6 @@
     <skos:notation>17</skos:notation>
     <skos:inScheme rdf:resource="https://data.omgeving.vlaanderen.be/id/conceptscheme/boortype"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <dc:identifier>17</dc:identifier>
+    <dc:identifier>be.vlaanderen.bodemenondergrond.data.id.concept.boortype.17</dc:identifier>
   </rdf:Description>
 </rdf:RDF>
