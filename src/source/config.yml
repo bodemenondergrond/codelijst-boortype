@@ -1,4 +1,4 @@
-types : sommaties_stoffen
+types : boortypes
 skos:
   rules :
     skos_rules : /../node_modules/maven-metadata-generator-npm/src/n3/skos-rules.n3
