@@ -46,6 +46,14 @@ omg_voc:boortype
     owl:sameAs omg_ont:boortype .
 
 
+omg_ag_cl:creator
+    rdfs:label "Ontwikkelaar codelijst"@en ;
+    schema:affiliation vl_org:OVO003749 ;
+    a foaf:Person;
+    foaf:firstName "Geert";
+    foaf:lastName "Van Haute";
+    foaf:mbox <mailto:geert.vanhaute@vlaanderen.be>.
+
 # Node Shapes
 ons:schema
     a                sh:NodeShape ;
