@@ -126,7 +126,7 @@
         <filtering>false</filtering>
       </resource>
       <resource>
-        <directory>/tmp/dcat</directory>
+        <directory>temp</directory>
         <filtering>false</filtering>
       </resource>
     </resources>
