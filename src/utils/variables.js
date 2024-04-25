@@ -193,10 +193,12 @@ const jsonld = [config.skos.path + config.skos.name + '/' + config.skos.name + c
 
 const csv = [config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.csv, frame_skos_no_prefixes]
 
+const xsd = config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.xsd
 
 export {
     ttl,
     nt,
     jsonld,
-    csv
+    csv,
+    xsd
 };

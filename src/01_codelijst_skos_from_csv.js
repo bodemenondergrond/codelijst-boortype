@@ -4,8 +4,9 @@ import {
     ttl,
     nt,
     jsonld,
-    csv
+    csv,
+    xsd
 } from './utils/variables.js';
 
-generate_skos(ttl, jsonld, nt, csv);
+generate_skos(ttl, jsonld, nt, csv, xsd);
 
