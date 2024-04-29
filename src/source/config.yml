@@ -12,7 +12,6 @@ skos:
   jsonld: .jsonld
   xsd: .xsd
   csv: .csv
-  rdf_xml: .rdf
   xlsx: .xlsx
   nt: .nt
 
