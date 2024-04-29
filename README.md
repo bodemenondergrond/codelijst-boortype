@@ -23,7 +23,6 @@ Voorbeeld: Voeg een definitie van een nieuwe code in de codelijst toe.
 ```
 cd $PROJECT_HOME/src/
 node 01_codelijst_skos_from_csv.js
-bash 01_rdf_xsd.sh
 ```
 
 ### run een maven build ( testen worden uitgevoerd en metadata aangemaakt)
@@ -49,21 +48,6 @@ cd $PROJECT_HOME
 ```
 
 
-
-## Dependencies
-
-**_RDF tools:_**
-
-In dit project wordt een jena cli-tool gebruikt: riot.
-- Lees eerst [deze documentatie](https://jena.apache.org/documentation/tools/index.html).
-- Installeer de jena [binaries](https://dlcdn.apache.org/jena/binaries/).
-
-```
-curl -O https://dlcdn.apache.org/jena/binaries/apache-jena-4.6.0.tar.gz
-tar -xf apache-jena-4.6.0.tar.gz -C /opt
-echo 'export PATH="/opt/apache-jena-4.6.0/bin:$PATH"' >> ~/.bashrc
-. ~/.bashrc
-```
 
 ### Release
 Release het overeenkomstige codelijsten project in Bamboo. Zie https://www.milieuinfo.be/bamboo/browse/CODELIJST
