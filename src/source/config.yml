@@ -20,8 +20,8 @@ source:
   codelijst_csv: codelijst-source.csv
   context: context.json
 dcat:
-  path_catalog: /tmp/dcat/be/vlaanderen/bodemenondergrond/data/id/catalog/
-  path_dataset: /tmp/dcat/be/vlaanderen/bodemenondergrond/data/id/dataset/
+  path_catalog: be/vlaanderen/bodemenondergrond/data/id/catalog/
+  path_dataset: be/vlaanderen/bodemenondergrond/data/id/dataset/
   name: codelijst-boortype
   dataset_jsonld: dataset.jsonld
   dataset_turtle: dataset.ttl
