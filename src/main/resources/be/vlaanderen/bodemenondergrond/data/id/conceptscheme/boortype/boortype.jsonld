@@ -1,344 +1,730 @@
 {
-  "@graph" : [ {
-    "@id" : "colt:boortypes",
-    "@type" : "skos:Collection",
-    "identifier" : "boortypes",
-    "member" : [ "ct:24", "ct:21", "ct:26", "ct:18", "ct:28", "ct:2", "ct:25", "ct:23", "ct:3", "ct:10", "ct:0", "ct:7", "ct:27", "ct:19", "ct:20", "ct:5", "ct:12", "ct:9", "ct:14", "ct:16", "ct:4", "ct:11", "ct:8", "ct:13", "ct:6", "ct:15", "ct:1", "ct:22", "ct:17" ],
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "Collectie van boortypes."
-    }
-  }, {
-    "@id" : "ct:0",
-    "@type" : "skos:Concept",
-    "identifier" : "0",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "onbekend"
+    "@context": {
+        "collections": {
+            "@type": "@id",
+            "@reverse": "member"
+        },
+        "id": "@id",
+        "type": {
+            "@id": "@type",
+            "@type": "@id"
+        },
+        "source": {
+            "@id": "http://purl.org/dc/terms/source",
+            "@type": "@id"
+        },
+        "sparql-service-description-name": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#name",
+            "@type": "@id"
+        },
+        "identifier": {
+            "@id": "http://purl.org/dc/terms/identifier",
+            "@type": "@id"
+        },
+        "hasVersion": {
+            "@id": "http://purl.org/dc/terms/hasVersion",
+            "@type": "@id"
+        },
+        "isVersionOf": {
+            "@id": "http://purl.org/dc/terms/isVersionOf",
+            "@type": "@id"
+        },
+        "label": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@language": "nl"
+        },
+        "distribution": {
+            "@id": "http://www.w3.org/ns/dcat#distribution",
+            "@type": "@id"
+        },
+        "alternative": {
+            "@id": "http://purl.org/dc/terms/alternative",
+            "@language": "nl"
+        },
+        "description": {
+            "@id": "http://purl.org/dc/terms/description",
+            "@language": "nl"
+        },
+        "spatial": {
+            "@id": "http://purl.org/dc/terms/spatial",
+            "@type": "@id"
+        },
+        "page": {
+            "@id": "http://xmlns.com/foaf/0.1/page",
+            "@type": "@id"
+        },
+        "theme": {
+            "@id": "http://www.w3.org/ns/dcat#theme",
+            "@type": "@id"
+        },
+        "title": {
+            "@id": "http://purl.org/dc/terms/title",
+            "@language": "nl"
+        },
+        "landingPage": {
+            "@id": "http://www.w3.org/ns/dcat#landingPage",
+            "@type": "@id"
+        },
+        "rightsHolder": {
+            "@id": "http://purl.org/dc/terms/rightsHolder",
+            "@type": "@id"
+        },
+        "language": "http://publications.europa.eu/resource/authority/language/",
+        "accrualPeriodicity": {
+            "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+            "@type": "@id"
+        },
+        "publisher": {
+            "@id": "http://purl.org/dc/terms/publisher",
+            "@type": "@id"
+        },
+        "dct.language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contactPoint": {
+            "@id": "http://www.w3.org/ns/dcat#contactPoint",
+            "@type": "@id"
+        },
+        "temporal": {
+            "@id": "http://purl.org/dc/terms/temporal",
+            "@type": "@id"
+        },
+        "issued": {
+            "@id": "http://purl.org/dc/terms/issued",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "accessRights": {
+            "@id": "http://purl.org/dc/terms/accessRights",
+            "@type": "@id"
+        },
+        "license": {
+            "@id": "http://purl.org/dc/terms/license",
+            "@type": "@id"
+        },
+        "accessURL": {
+            "@id": "http://www.w3.org/ns/dcat#accessURL",
+            "@type": "@id"
+        },
+        "compressFormat": {
+            "@id": "http://www.w3.org/ns/dcat#compressFormat",
+            "@type": "@id"
+        },
+        "downloadURL": {
+            "@id": "http://www.w3.org/ns/dcat#downloadURL",
+            "@type": "@id"
+        },
+        "mediaType": {
+            "@id": "http://www.w3.org/ns/dcat#mediaType",
+            "@type": "@id"
+        },
+        "format": {
+            "@id": "http://purl.org/dc/terms/format",
+            "@type": "@id"
+        },
+        "versionInfo": {
+            "@id": "http://spdx.org/rdf/terms#versionInfo"
+        },
+        "packageName": {
+            "@id": "http://spdx.org/rdf/terms#packageName"
+        },
+        "packageFileName": {
+            "@id": "http://spdx.org/rdf/terms#packageFileName"
+        },
+        "downloadLocation": {
+            "@id": "http://spdx.org/rdf/terms#downloadLocation",
+            "@type": "@id"
+        },
+        "relationshipType_packageOf": {
+            "@id": "http://spdx.org/rdf/terms#relationshipType_packageOf",
+            "@type": "@id"
+        },
+        "availableGraphs": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#availableGraphs",
+            "@type": "@id"
+        },
+        "resultFormat": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+            "@type": "@id"
+        },
+        "feature": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#feature",
+            "@type": "@id"
+        },
+        "supportedLanguage": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+            "@type": "@id"
+        },
+        "url": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#url",
+            "@type": "@id"
+        },
+        "comment": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "@language": "nl"
+        },
+        "defaultDataset": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultDataset",
+            "@type": "@id"
+        },
+        "endpoint": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "@type": "@id"
+        },
+        "namedGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#namedGraph",
+            "@type": "@id"
+        },
+        "homepage": {
+            "@id": "http://xmlns.com/foaf/0.1/homepage",
+            "@type": "@id"
+        },
+        "service": {
+            "@id": "http://www.w3.org/ns/dcat#service",
+            "@type": "@id"
+        },
+        "rootResource": {
+            "@id": "http://rdfs.org/ns/void#rootResource",
+            "@type": "@id"
+        },
+        "dataset": {
+            "@id": "http://www.w3.org/ns/dcat#dataset",
+            "@type": "@id"
+        },
+        "servesDataset": {
+            "@id": "http://www.w3.org/ns/dcat#servesDataset",
+            "@type": "@id"
+        },
+        "endpointDescription": {
+            "@id": "http://www.w3.org/ns/dcat#endpointDescription",
+            "@type": "@id"
+        },
+        "endpointURL": {
+            "@id": "http://www.w3.org/ns/dcat#endpointURL",
+            "@type": "@id"
+        },
+        "conformsTo": {
+            "@id": "http://purl.org/dc/terms/conformsTo",
+            "@type": "@id"
+        },
+        "dc.identifier": {
+            "@id": "http://purl.org/dc/elements/1.1/identifier"
+        },
+        "dc.language": {
+            "@id": "http://purl.org/dc/elements/1.1/language",
+            "@language": "nl"
+        },
+        "dc.source": {
+            "@id": "http://purl.org/dc/elements/1.1/source"
+        },
+        "version": {
+            "@id": "http://www.w3.org/2002/07/owl#versionInfo"
+        },
+        "name": {
+            "@id": "http://spdx.org/rdf/terms#name"
+        },
+        "seeAlso": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inScheme": {
+            "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+            "@type": "@id"
+        },
+        "topConceptOf": {
+            "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+            "@type": "@id"
+        },
+        "hasTopConcept": {
+            "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+            "@type": "@id"
+        },
+        "uri": {
+            "@id": "@id",
+            "@type": "@id"
+        },
+        "prefLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "nl"
+        },
+        "notation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#notation"
+        },
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "nl"
+        },
+        "note": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "nl"
+        },
+        "definition": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "nl"
+        },
+        "member": {
+            "@id": "http://www.w3.org/2004/02/skos/core#member",
+            "@type": "@id"
+        },
+        "casNumber": {
+            "@id": "http://dbpedia.org/ontology/casNumber"
+        },
+        "references": {
+            "@id": "http://purl.org/dc/terms/references",
+            "@type": "@id"
+        },
+        "isReferencedBy": {
+            "@id": "http://purl.org/dc/terms/isReferencedBy",
+            "@type": "@id"
+        },
+        "relation": {
+            "@id": "http://purl.org/dc/terms/relation",
+            "@type": "@id"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "broaderTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "broadMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#closeMatch",
+            "@type": "@id"
+        },
+        "exactMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#exactMatch",
+            "@type": "@id"
+        },
+        "mappingRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#mappingRelation",
+            "@type": "@id"
+        },
+        "broader": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "narrower": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+            "@type": "@id"
+        },
+        "narrowerTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+            "@type": "@id"
+        },
+        "narrowMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+            "@type": "@id"
+        },
+        "semanticRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "belongsTo": {
+            "@id": "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+            "@type": "@id"
+        },
+        "concept": "https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/",
+        "collectie": "https://data.bodemenondergrond.vlaanderen.be/id/collection/boortype/",
+        "access_right": "http://publications.europa.eu/resource/authority/access-right/",
+        "adms": "http://www.w3.org/ns/adms#",
+        "assettype": "http://purl.org/adms/assettype/",
+        "conceptscheme": "https://data.omgeving.vlaanderen.be/id/conceptscheme/",
+        "country": "http://publications.europa.eu/resource/authority/country/",
+        "datasets": "https://datasets.omgeving.vlaanderen.be/",
+        "datatheme_be": "http://vocab.belgif.be/auth/datatheme/",
+        "datatheme_eu": "http://publications.europa.eu/resource/authority/data-theme/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dct": "http://purl.org/dc/terms/",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "file_type": "http://publications.europa.eu/resource/authority/file-type/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "formats": "http://www.w3.org/ns/formats/",
+        "frequency": "http://publications.europa.eu/resource/authority/frequency/",
+        "gemet": "http://www.eionet.europa.eu/gemet/concept/",
+        "licence": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/",
+        "metadata": "https://data.omgeving.vlaanderen.be/ns/metadata#",
+        "omg_catalog": "https://data.omgeving.vlaanderen.be/id/catalog/",
+        "omg_catalog_doc": "https://data.omgeving.vlaanderen.be/doc/catalog/",
+        "omg_collection": "https://data.bodemenondergrond.vlaanderen.be/id/collection/",
+        "omg_dataservice": "https://data.bodemenondergrond.vlaanderen.be/id/dataservice/",
+        "omg_dataset_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/",
+        "omg_dataset": "https://data.bodemenondergrond.vlaanderen.be/id/dataset/",
+        "omg_distribution_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/",
+        "omg_distribution": "https://data.bodemenondergrond.vlaanderen.be/id/distribution/",
+        "omg_graphcollection": "https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/",
+        "omg_graph": "https://data.bodemenondergrond.vlaanderen.be/id/graph/",
+        "omg_id": "https://data.bodemenondergrond.vlaanderen.be/id/",
+        "omg_named_graph": "https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/",
+        "omg_ontology": "https://data.bodemenondergrond.vlaanderen.be/id/ontology/",
+        "omg_package": "https://data.bodemenondergrond.vlaanderen.be/id/package/",
+        "omg_periodoftime": "https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/",
+        "omg_service": "https://data.bodemenondergrond.vlaanderen.be/id/service/",
+        "omg_vcard": "https://data.bodemenondergrond.vlaanderen.be/id/vcard/",
+        "ovo": "http://data.vlaanderen.be/id/organisatie/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "repo": "https://repo.omgeving.vlaanderen.be/artifactory/release/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "ssd": "http://www.w3.org/ns/sparql-service-description#",
+        "ts": "http://www.w3.org/ns/formats/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "void": "http://rdfs.org/ns/void#",
+        "wise": "http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@base": "https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/"
     },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:1",
-    "@type" : "skos:Concept",
-    "identifier" : "1",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "droge boring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:10",
-    "@type" : "skos:Concept",
-    "identifier" : "10",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "luchthamer"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:11",
-    "@type" : "skos:Concept",
-    "identifier" : "11",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "geen boring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:12",
-    "@type" : "skos:Concept",
-    "identifier" : "12",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "meerdere technieken"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:13",
-    "@type" : "skos:Concept",
-    "identifier" : "13",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "avegaarboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:14",
-    "@type" : "skos:Concept",
-    "identifier" : "14",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "ramkernboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:15",
-    "@type" : "skos:Concept",
-    "identifier" : "15",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "slagboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:16",
-    "@type" : "skos:Concept",
-    "identifier" : "16",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "spade"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:17",
-    "@type" : "skos:Concept",
-    "identifier" : "17",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "trilboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:18",
-    "@type" : "skos:Concept",
-    "identifier" : "18",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "edelmanboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:19",
-    "@type" : "skos:Concept",
-    "identifier" : "19",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "omgek. spoelboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:2",
-    "@type" : "skos:Concept",
-    "identifier" : "2",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "lepelboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:20",
-    "@type" : "skos:Concept",
-    "identifier" : "20",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "handboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:21",
-    "@type" : "skos:Concept",
-    "identifier" : "21",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "ramguts"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:22",
-    "@type" : "skos:Concept",
-    "identifier" : "22",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "voorput"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:23",
-    "@type" : "skos:Concept",
-    "identifier" : "23",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "steenboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:24",
-    "@type" : "skos:Concept",
-    "identifier" : "24",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "graafmachine"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:25",
-    "@type" : "skos:Concept",
-    "identifier" : "25",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "luchthevelboren of air-lift boren"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:26",
-    "@type" : "skos:Concept",
-    "identifier" : "26",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "lansen"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:27",
-    "@type" : "skos:Concept",
-    "identifier" : "27",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "roto-sonische boring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:28",
-    "@type" : "skos:Concept",
-    "identifier" : "28",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "diagrafieboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:3",
-    "@type" : "skos:Concept",
-    "identifier" : "3",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "pulsboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:4",
-    "@type" : "skos:Concept",
-    "identifier" : "4",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "spiraalboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:5",
-    "@type" : "skos:Concept",
-    "identifier" : "5",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "gestoken boring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:6",
-    "@type" : "skos:Concept",
-    "identifier" : "6",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "spoelboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:7",
-    "@type" : "skos:Concept",
-    "identifier" : "7",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "zuigboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:8",
-    "@type" : "skos:Concept",
-    "identifier" : "8",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "kernboring"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "ct:9",
-    "@type" : "skos:Concept",
-    "identifier" : "9",
-    "inScheme" : "cs:boortype",
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "rollerbit"
-    },
-    "topConceptOf" : "cs:boortype"
-  }, {
-    "@id" : "cs:boortype",
-    "@type" : "skos:ConceptScheme",
-    "identifier" : "boortypes",
-    "hasTopConcept" : [ "ct:0", "ct:18", "ct:5", "ct:17", "ct:4", "ct:13", "ct:8", "ct:3", "ct:16", "ct:9", "ct:12", "ct:7", "ct:2", "ct:11", "ct:28", "ct:24", "ct:1", "ct:10", "ct:23", "ct:15", "ct:22", "ct:14", "ct:27", "ct:21", "ct:26", "ct:20", "ct:25", "ct:19", "ct:6" ],
-    "prefLabel" : {
-      "@language" : "nl",
-      "@value" : "boortypes"
-    }
-  } ],
-  "@context" : {
-    "topConceptOf" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
-      "@type" : "@id"
-    },
-    "prefLabel" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
-    },
-    "inScheme" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
-      "@type" : "@id"
-    },
-    "identifier" : {
-      "@id" : "http://purl.org/dc/elements/1.1/identifier"
-    },
-    "hasTopConcept" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
-      "@type" : "@id"
-    },
-    "member" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#member",
-      "@type" : "@id"
-    },
-    "cs" : "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
-    "ct" : "https://data.bodemenondergrond.vlaanderen.be/id/concept/boortypes/",
-    "dct" : "http://purl.org/dc/terms/",
-    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "xsd" : "http://www.w3.org/2001/XMLSchema#",
-    "skos" : "http://www.w3.org/2004/02/skos/core#",
-    "colt" : "https://data.bodemenondergrond.vlaanderen.be/id/collection/boortypes/",
-    "dc" : "http://purl.org/dc/elements/1.1/",
-    "xkos" : "http://rdf-vocabulary.ddialliance.org/xkos#"
-  }
+    "graph": [
+        {
+            "id": "collectie:boortypes",
+            "type": "skos:Collection",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.collection.boortype.boortypes",
+            "inScheme": "conceptscheme:boortype",
+            "member": [
+                "concept:0",
+                "concept:10",
+                "concept:11",
+                "concept:12",
+                "concept:13",
+                "concept:14",
+                "concept:15",
+                "concept:16",
+                "concept:17",
+                "concept:18",
+                "concept:19",
+                "concept:1",
+                "concept:20",
+                "concept:21",
+                "concept:22",
+                "concept:23",
+                "concept:24",
+                "concept:25",
+                "concept:26",
+                "concept:27",
+                "concept:28",
+                "concept:2",
+                "concept:3",
+                "concept:4",
+                "concept:5",
+                "concept:6",
+                "concept:7",
+                "concept:8",
+                "concept:9"
+            ],
+            "notation": "collectie_boortypes",
+            "prefLabel": "Collectie van boortypes."
+        },
+        {
+            "id": "concept:0",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.0",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "0",
+            "prefLabel": "onbekend",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:1",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.1",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "1",
+            "prefLabel": "droge boring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:10",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.10",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "10",
+            "prefLabel": "luchthamer",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:11",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.11",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "11",
+            "prefLabel": "geen boring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:12",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.12",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "12",
+            "prefLabel": "meerdere technieken",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:13",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.13",
+            "definition": "TODO",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "13",
+            "note": "TODO",
+            "prefLabel": "avegaarboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:14",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.14",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "14",
+            "prefLabel": "ramkernboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:15",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.15",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "15",
+            "prefLabel": "slagboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:16",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.16",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "16",
+            "prefLabel": "spade",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:17",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.17",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "17",
+            "prefLabel": "trilboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:18",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.18",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "18",
+            "prefLabel": "edelmanboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:19",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.19",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "19",
+            "prefLabel": "omgek. spoelboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:2",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.2",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "2",
+            "prefLabel": "lepelboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:20",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.20",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "20",
+            "prefLabel": "handboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:21",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.21",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "21",
+            "prefLabel": "ramguts",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:22",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.22",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "22",
+            "prefLabel": "voorput",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:23",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.23",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "23",
+            "prefLabel": "steenboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:24",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.24",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "24",
+            "prefLabel": "graafmachine",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:25",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.25",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "25",
+            "prefLabel": "luchthevelboren of air-lift boren",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:26",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.26",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "26",
+            "prefLabel": "lansen",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:27",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.27",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "27",
+            "prefLabel": "roto-sonische boring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:28",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.28",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "28",
+            "prefLabel": "diagrafieboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:3",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.3",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "3",
+            "prefLabel": "pulsboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:4",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.4",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "4",
+            "prefLabel": "spiraalboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:5",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.5",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "5",
+            "prefLabel": "gestoken boring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:6",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.6",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "6",
+            "prefLabel": "spoelboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:7",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.7",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "7",
+            "prefLabel": "zuigboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:8",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.8",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "8",
+            "prefLabel": "kernboring",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "concept:9",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.9",
+            "inScheme": "conceptscheme:boortype",
+            "notation": "9",
+            "prefLabel": "rollerbit",
+            "topConceptOf": "conceptscheme:boortype"
+        },
+        {
+            "id": "conceptscheme:boortype",
+            "type": "skos:ConceptScheme",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.boortype",
+            "hasTopConcept": [
+                "concept:0",
+                "concept:10",
+                "concept:11",
+                "concept:12",
+                "concept:13",
+                "concept:14",
+                "concept:15",
+                "concept:16",
+                "concept:17",
+                "concept:18",
+                "concept:19",
+                "concept:1",
+                "concept:20",
+                "concept:21",
+                "concept:22",
+                "concept:23",
+                "concept:24",
+                "concept:25",
+                "concept:26",
+                "concept:27",
+                "concept:28",
+                "concept:2",
+                "concept:3",
+                "concept:4",
+                "concept:5",
+                "concept:6",
+                "concept:7",
+                "concept:8",
+                "concept:9"
+            ],
+            "notation": "boortypes",
+            "prefLabel": "boortypes"
+        }
+    ]
 }

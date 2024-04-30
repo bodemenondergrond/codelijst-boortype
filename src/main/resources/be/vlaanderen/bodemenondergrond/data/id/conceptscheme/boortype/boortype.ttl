@@ -1,193 +1,243 @@
-@prefix cs:    <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
-@prefix ct:    <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortypes/> .
-@prefix dct:   <http://purl.org/dc/terms/> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix colt:  <https://data.bodemenondergrond.vlaanderen.be/id/collection/boortypes/> .
-@prefix dc:    <http://purl.org/dc/elements/1.1/> .
-@prefix xkos:  <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix concept: <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/>.
+@prefix collectie: <https://data.bodemenondergrond.vlaanderen.be/id/collection/boortype/>.
+@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix conceptscheme: <https://data.omgeving.vlaanderen.be/id/conceptscheme/>.
+@prefix country: <http://publications.europa.eu/resource/authority/country/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
+@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eurovoc: <http://eurovoc.europa.eu/>.
+@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix formats: <http://www.w3.org/ns/formats/>.
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
+@prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
+@prefix omg_catalog: <https://data.omgeving.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.omgeving.vlaanderen.be/doc/catalog/>.
+@prefix omg_collection: <https://data.bodemenondergrond.vlaanderen.be/id/collection/>.
+@prefix omg_dataservice: <https://data.bodemenondergrond.vlaanderen.be/id/dataservice/>.
+@prefix omg_dataset_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/>.
+@prefix omg_dataset: <https://data.bodemenondergrond.vlaanderen.be/id/dataset/>.
+@prefix omg_distribution_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/>.
+@prefix omg_distribution: <https://data.bodemenondergrond.vlaanderen.be/id/distribution/>.
+@prefix omg_graphcollection: <https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/>.
+@prefix omg_graph: <https://data.bodemenondergrond.vlaanderen.be/id/graph/>.
+@prefix omg_id: <https://data.bodemenondergrond.vlaanderen.be/id/>.
+@prefix omg_named_graph: <https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/>.
+@prefix omg_ontology: <https://data.bodemenondergrond.vlaanderen.be/id/ontology/>.
+@prefix omg_package: <https://data.bodemenondergrond.vlaanderen.be/id/package/>.
+@prefix omg_periodoftime: <https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/>.
+@prefix omg_service: <https://data.bodemenondergrond.vlaanderen.be/id/service/>.
+@prefix omg_vcard: <https://data.bodemenondergrond.vlaanderen.be/id/vcard/>.
+@prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix ts: <http://www.w3.org/ns/formats/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-ct:23   a                  skos:Concept ;
-        dc:identifier      "23" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "steenboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:3    a                  skos:Concept ;
-        dc:identifier      "3" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "pulsboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:9    a                  skos:Concept ;
-        dc:identifier      "9" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "rollerbit"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:13   a                  skos:Concept ;
-        dc:identifier      "13" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "avegaarboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:19   a                  skos:Concept ;
-        dc:identifier      "19" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "omgek. spoelboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:22   a                  skos:Concept ;
-        dc:identifier      "22" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "voorput"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-cs:boortype  a              skos:ConceptScheme ;
-        dc:identifier       "boortypes" ;
-        skos:hasTopConcept  ct:0 , ct:18 , ct:5 , ct:17 , ct:4 , ct:13 , ct:8 , ct:16 , ct:3 , ct:9 , ct:12 , ct:7 , ct:2 , ct:11 , ct:28 , ct:24 , ct:1 , ct:10 , ct:23 , ct:15 , ct:22 , ct:14 , ct:27 , ct:21 , ct:26 , ct:20 , ct:25 , ct:6 , ct:19 ;
-        skos:prefLabel      "boortypes"@nl .
-
-ct:28   a                  skos:Concept ;
-        dc:identifier      "28" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "diagrafieboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:2    a                  skos:Concept ;
-        dc:identifier      "2" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "lepelboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:8    a                  skos:Concept ;
-        dc:identifier      "8" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "kernboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:12   a                  skos:Concept ;
-        dc:identifier      "12" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "meerdere technieken"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:18   a                  skos:Concept ;
-        dc:identifier      "18" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "edelmanboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:21   a                  skos:Concept ;
-        dc:identifier      "21" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "ramguts"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:27   a                  skos:Concept ;
-        dc:identifier      "27" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "roto-sonische boring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:1    a                  skos:Concept ;
-        dc:identifier      "1" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "droge boring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:7    a                  skos:Concept ;
-        dc:identifier      "7" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "zuigboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:11   a                  skos:Concept ;
-        dc:identifier      "11" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "geen boring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:17   a                  skos:Concept ;
-        dc:identifier      "17" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "trilboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:20   a                  skos:Concept ;
-        dc:identifier      "20" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "handboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:26   a                  skos:Concept ;
-        dc:identifier      "26" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "lansen"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:0    a                  skos:Concept ;
-        dc:identifier      "0" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "onbekend"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:6    a                  skos:Concept ;
-        dc:identifier      "6" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "spoelboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-colt:boortypes  a       skos:Collection ;
-        dc:identifier   "boortypes" ;
-        skos:member     ct:24 , ct:21 , ct:26 , ct:18 , ct:2 , ct:28 , ct:25 , ct:23 , ct:3 , ct:10 , ct:0 , ct:7 , ct:27 , ct:19 , ct:20 , ct:5 , ct:12 , ct:9 , ct:14 , ct:16 , ct:4 , ct:11 , ct:8 , ct:6 , ct:13 , ct:15 , ct:1 , ct:22 , ct:17 ;
-        skos:prefLabel  "Collectie van boortypes."@nl .
-
-ct:10   a                  skos:Concept ;
-        dc:identifier      "10" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "luchthamer"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:16   a                  skos:Concept ;
-        dc:identifier      "16" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "spade"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:25   a                  skos:Concept ;
-        dc:identifier      "25" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "luchthevelboren of air-lift boren"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:5    a                  skos:Concept ;
-        dc:identifier      "5" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "gestoken boring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:15   a                  skos:Concept ;
-        dc:identifier      "15" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "slagboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:24   a                  skos:Concept ;
-        dc:identifier      "24" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "graafmachine"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:4    a                  skos:Concept ;
-        dc:identifier      "4" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "spiraalboring"@nl ;
-        skos:topConceptOf  cs:boortype .
-
-ct:14   a                  skos:Concept ;
-        dc:identifier      "14" ;
-        skos:inScheme      cs:boortype ;
-        skos:prefLabel     "ramkernboring"@nl ;
-        skos:topConceptOf  cs:boortype .
+collectie:boortypes dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.boortype.boortypes";
+    a skos:Collection;
+    skos:inScheme conceptscheme:boortype;
+    skos:member <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/0>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/10>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/11>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/12>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/13>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/14>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/15>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/16>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/17>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/18>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/19>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/20>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/21>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/22>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/23>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/24>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/25>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/26>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/27>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/28>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/4>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/5>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/6>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/7>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/8>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/9>;
+    skos:notation "collectie_boortypes";
+    skos:prefLabel "Collectie van boortypes."@nl.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/0> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.0";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "0";
+    skos:prefLabel "onbekend"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/10> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.10";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "10";
+    skos:prefLabel "luchthamer"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/11> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.11";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "11";
+    skos:prefLabel "geen boring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/12> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.12";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "12";
+    skos:prefLabel "meerdere technieken"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/13> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.13";
+    a skos:Concept;
+    skos:definition "TODO"@nl;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "13";
+    skos:note "TODO"@nl;
+    skos:prefLabel "avegaarboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/14> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.14";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "14";
+    skos:prefLabel "ramkernboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/15> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.15";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "15";
+    skos:prefLabel "slagboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/16> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.16";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "16";
+    skos:prefLabel "spade"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/17> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.17";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "17";
+    skos:prefLabel "trilboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/18> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.18";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "18";
+    skos:prefLabel "edelmanboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/19> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.19";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "19";
+    skos:prefLabel "omgek. spoelboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/1> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.1";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "1";
+    skos:prefLabel "droge boring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/20> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.20";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "20";
+    skos:prefLabel "handboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/21> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.21";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "21";
+    skos:prefLabel "ramguts"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/22> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.22";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "22";
+    skos:prefLabel "voorput"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/23> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.23";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "23";
+    skos:prefLabel "steenboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/24> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.24";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "24";
+    skos:prefLabel "graafmachine"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/25> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.25";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "25";
+    skos:prefLabel "luchthevelboren of air-lift boren"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/26> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.26";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "26";
+    skos:prefLabel "lansen"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/27> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.27";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "27";
+    skos:prefLabel "roto-sonische boring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/28> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.28";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "28";
+    skos:prefLabel "diagrafieboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/2> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.2";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "2";
+    skos:prefLabel "lepelboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/3> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.3";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "3";
+    skos:prefLabel "pulsboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/4> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.4";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "4";
+    skos:prefLabel "spiraalboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/5> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.5";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "5";
+    skos:prefLabel "gestoken boring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/6> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.6";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "6";
+    skos:prefLabel "spoelboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/7> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.7";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "7";
+    skos:prefLabel "zuigboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/8> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.8";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "8";
+    skos:prefLabel "kernboring"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/9> dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.boortype.9";
+    a skos:Concept;
+    skos:inScheme conceptscheme:boortype;
+    skos:notation "9";
+    skos:prefLabel "rollerbit"@nl;
+    skos:topConceptOf conceptscheme:boortype.
+conceptscheme:boortype dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.boortype";
+    a skos:ConceptScheme;
+    skos:hasTopConcept <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/0>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/10>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/11>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/12>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/13>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/14>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/15>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/16>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/17>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/18>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/19>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/20>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/21>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/22>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/23>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/24>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/25>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/26>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/27>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/28>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/4>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/5>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/6>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/7>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/8>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/boortype/9>;
+    skos:notation "boortypes";
+    skos:prefLabel "boortypes"@nl.
