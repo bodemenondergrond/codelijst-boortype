@@ -35,6 +35,21 @@ ap :
   turtle: .ttl
 
 metadata :
+  sparqlservice:
+    endpoint: https://data.bodemenondergrond.vlaanderen.be/sparql
+    feature:
+      - http://www.w3.org/ns/sparql-service-description#DereferencesURIs
+      - http://www.w3.org/ns/sparql-service-description#UnionDefaultGraph
+    resultFormat:
+      - http://www.w3.org/ns/formats/JSON-LD
+      - http://www.w3.org/ns/formats/RDF_XML
+      - http://www.w3.org/ns/formats/N-Triples
+      - http://www.w3.org/ns/formats/N-Quads
+      - http://www.w3.org/ns/formats/SPARQL_Results_CSV
+      - http://www.w3.org/ns/formats/SPARQL_Results_XML
+      - http://www.w3.org/ns/formats/Turtle
+      - http://www.w3.org/ns/formats/SPARQL_Results_JSON
+    supportedLanguage: http://www.w3.org/ns/sparql-service-description#SPARQL10Query
   all :
     accessURL : https://github.com/bodemenondergrond/codelijst-boortype.git
     contactPoint : https://data.omgeving.vlaanderen.be/id/vcard/helpdesk
@@ -145,3 +160,5 @@ prefixes :
   wise: http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/
   xkos: http://rdf-vocabulary.ddialliance.org/xkos#
   xsd: http://www.w3.org/2001/XMLSchema#
+deploy:
+  virtuoso: virtuoso-bodemenondergrond
